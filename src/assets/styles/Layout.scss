@@ -1,0 +1,56 @@
+/***
+ *    ██╗......█████╗.██╗...██╗.██████╗.██╗...██╗████████╗
+ *    ██║.....██╔══██╗╚██╗.██╔╝██╔═══██╗██║...██║╚══██╔══╝
+ *    ██║.....███████║.╚████╔╝.██║...██║██║...██║...██║...
+ *    ██║.....██╔══██║..╚██╔╝..██║...██║██║...██║...██║...
+ *    ███████╗██║..██║...██║...╚██████╔╝╚██████╔╝...██║...
+ *    ╚══════╝╚═╝..╚═╝...╚═╝....╚═════╝..╚═════╝....╚═╝...
+ *    ....................................................
+ */
+
+@import "./Vars.scss";
+
+.Layout {
+  padding: 23px 16px;
+}
+
+.Section {
+  h3 {
+    margin: 0;
+    font-size: 19px;
+    font-family: $font3;
+    color: $ColorBlack;
+  }
+  span {
+    color: $ColorBrand;
+    font-size: 13px;
+    font-family: $font3;
+    margin-left: $Space05;
+  }
+  &__content {
+    margin-top: 12px;
+    width: 100%;
+    display: grid;
+    grid-row-gap: 12px;
+    & ul {
+      width: 100%;
+      display: grid;
+      grid-row-gap: 12px;
+      list-style: none;
+      padding: 0;
+    }
+  }
+}
+
+.btn {
+  font-family: $font2;
+  padding: 5px 13px;
+  &__cancel {
+    color: $ColorGray;
+    border: 1px solid $ColorGray;
+  }
+  &__success {
+    background-color: $ColorSecundary;
+    color: $ColorWhite;
+  }
+}
