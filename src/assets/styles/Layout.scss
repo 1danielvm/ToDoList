@@ -12,6 +12,7 @@
 
 .Layout {
   padding: 23px 16px;
+  background-color: $ColorBackground;
 }
 
 .Section {
@@ -52,5 +53,21 @@
   &__success {
     background-color: $ColorSecundary;
     color: $ColorWhite;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .Section {
+    &__content {
+      & ul {
+        width: 100%;
+        display: grid;
+        grid-row-gap: 12px;
+        list-style: none;
+        padding: 0;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 12px;
+      }
+    }
   }
 }

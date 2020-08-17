@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Layout from "./Layout";
-import TaskHome from "../Pages/TaskHome";
 import TaskNew from "../Pages/TaskNew";
+import TaskHome from "../Pages/TaskHome";
 import TaskEdit from "../Pages/TaskEdit";
 import ContentTaskDetails from "../container/ContentTaskDetails";
 import NotFound from "../Pages/NotFound";

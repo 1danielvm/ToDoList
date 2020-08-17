@@ -4,7 +4,7 @@ import TaskForm from "../components/TaskForm";
 import {SectionEdit} from "../components/SectionEdit";
 import api from '../api'
 
-class EditTask extends React.Component{
+class TaskEdit extends React.Component{
   state = {
     loading: true,
     error: null,
@@ -14,7 +14,7 @@ class EditTask extends React.Component{
       email: '',
       taskTitle: '',
       taskDescription: '',
-      timeTask: ''
+      timeTask: '',
   }};
 
   handleSubmit = async e => {
@@ -77,4 +77,4 @@ class EditTask extends React.Component{
   }
 };
 
-export default EditTask;
+export default TaskEdit;

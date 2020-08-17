@@ -16,9 +16,10 @@ function createTasks(limit = 5) {
       firstName,
       lastName,
       email,
-      taskTitle: faker.name.taskTitle(),
-      taskDescription: faker.name.taskDescription(),
+      taskTitle: faker.lorem.words(),
+      taskDescription: faker.lorem.paragraphs(),
       avatarUrl: `https://www.gravatar.com/avatar/${md5(email)}?d=identicon`,
+      timeTask: faker.random.number(),
     });
   }
 
