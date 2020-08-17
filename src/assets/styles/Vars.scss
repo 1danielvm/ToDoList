@@ -1,0 +1,43 @@
+/***
+ *    ██╗...██╗.█████╗.██████╗.███████╗
+ *    ██║...██║██╔══██╗██╔══██╗██╔════╝
+ *    ██║...██║███████║██████╔╝███████╗
+ *    ╚██╗.██╔╝██╔══██║██╔══██╗╚════██║
+ *    .╚████╔╝.██║..██║██║..██║███████║
+ *    ..╚═══╝..╚═╝..╚═╝╚═╝..╚═╝╚══════╝
+ *    .................................
+ */
+// importacion de fuente Muli --similar a Gilroy-----
+@font-face {
+  font-family: "Gilroy Medium";
+  src: url("../fonts/Gilroy-Medium.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Gilroy SemiBold";
+  src: url("../fonts/Gilroy-SemiBold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Gilroy Regular";
+  src: url("../fonts/Gilroy-Regular.ttf");
+  font-weight: 400;
+}
+
+// --------------- TYPOGRAPHY ---------------
+$font1: "Gilroy Regular", sans-serif;
+$font2: "Gilroy Medium", sans-serif;
+$font3: "Gilroy SemiBold", sans-serif;
+// ----------COLORS--------
+$ColorBrand: #425195;
+$ColorSecundary: #2dc09d;
+$ColorBlack: #010c3b;
+$ColorWhite: #ffffff;
+$ColorBackground: #f0f3ff;
+$ColorText: #333d69;
+$ColorGray: #b9bcc4;
+// -------SPACE-----------
+$Space05: 8px;
+$Space1: 16px;
+$Space2: 32px;
+$Space3: 40px;

@@ -1,0 +1,57 @@
+/***
+ *    .█████╗.██████╗.██████╗.
+ *    ██╔══██╗██╔══██╗██╔══██╗
+ *    ███████║██████╔╝██████╔╝
+ *    ██╔══██║██╔═══╝.██╔═══╝.
+ *    ██║..██║██║.....██║.....
+ *    ╚═╝..╚═╝╚═╝.....╚═╝.....
+ *    ........................
+ */
+@import "./Vars.scss";
+@import "./Layout.scss";
+@import "./Header.scss";
+@import "./Card.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font1;
+  color: $ColorBlack;
+  background-color: $ColorBackground;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font1;
+  background-color: $ColorBackground;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font3;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: $ColorText;
+  &:hover {
+    text-decoration: none;
+    color: $ColorText;
+  }
+}
