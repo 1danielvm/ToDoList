@@ -8,7 +8,8 @@
       "taskTitle": "veniam quia quis",
       "taskDescription": "Maxime id nobis voluptatem qui. Magnam eveniet explicabo alias. Omnis eum illo autem dolor laborum eius sed.\n \rDolor qui ut. Ducimus doloremque et aut in nisi optio. In molestiae quod ut omnis molestiae officia exercitationem. Unde eos odit magnam ducimus culpa quae. Et voluptas ex.\n \rNulla magnam ea mollitia doloribus error non in et in. Voluptate reiciendis qui iste id doloremque voluptas atque non occaecati. Sunt rerum voluptates id officiis distinctio. Occaecati delectus rerum laborum corrupti nobis tempore expedita repellat. Consequuntur autem ipsa id sit sunt quod iure aut. Eaque ipsam quisquam.",
       "avatarUrl": "https://www.gravatar.com/avatar/7649bcb33dfdee0d65f562b18cf5c06f?d=identicon",
-      "timeTask": 9
+      "timeTask": 9,
+      "status": "activa"
     },
     {
       "id": "60f5f238-ea6b-4241-99a0-2c33c36c2dc6",
@@ -18,7 +19,8 @@
       "taskTitle": "nihil occaecati placeat",
       "taskDescription": "Nemo soluta quasi saepe minus nesciunt et quia. Mollitia est veritatis tenetur sunt. Consequatur qui est itaque asperiores iste quia sint. Adipisci repudiandae aperiam cum.\n \rEt ut accusamus. Quidem voluptas voluptatibus voluptatem mollitia delectus voluptatem et alias omnis. Quis aut inventore dicta. At et laboriosam inventore iste aut rerum quam.\n \rEt eveniet velit quos qui vel. Nesciunt recusandae sit fuga. Laudantium voluptas tempora expedita totam. Autem qui debitis. Odit cumque quasi.",
       "avatarUrl": "https://www.gravatar.com/avatar/ed0f733dcfd9286a26d76e7c139ca149?d=identicon",
-      "timeTask": 66
+      "timeTask": 24,
+      "status": "activa"
     },
     {
       "id": "048680d8-6097-4653-a57f-4ce10372c59b",
@@ -28,7 +30,8 @@
       "taskTitle": "eligendi vero et",
       "taskDescription": "Similique sit ipsam non ut dolores. Ducimus sint temporibus ab aspernatur magnam dicta fugiat. Quod numquam ratione. Id cumque tempore maiores ullam harum sint qui. Unde voluptatum delectus repudiandae et nam veniam. Nesciunt tempore sed necessitatibus quia aut at.\n \rNihil eos blanditiis qui tempore architecto qui delectus. Explicabo rerum itaque omnis libero consequatur tenetur labore reiciendis. Quidem deleniti et officia optio autem temporibus sed vitae. Inventore aut sunt enim eum officiis. Omnis nesciunt aperiam nihil accusantium hic.\n \rEum vel sit autem vel facere odio ut. Aut omnis harum velit consectetur itaque voluptate. Alias reprehenderit eius. Eum tenetur molestiae occaecati reiciendis possimus.",
       "avatarUrl": "https://www.gravatar.com/avatar/bd826a99d459b219b21f05a7301c86f1?d=identicon",
-      "timeTask": 7
+      "timeTask": 7,
+      "status": "activa"
     },
     {
       "id": "c0f3e507-cd15-44cc-9bb0-74d71cce83f4",
@@ -38,7 +41,8 @@
       "taskTitle": "non quasi pariatur",
       "taskDescription": "Maxime architecto ipsa dicta quo est laborum et aut sed. Libero velit earum modi ab voluptatem dignissimos amet. Modi similique perspiciatis et quam ab eveniet unde et eaque. A in pariatur assumenda magnam soluta et ex sed. Aut tempore nisi qui.\n \rAut consequatur iusto necessitatibus velit inventore iusto. Excepturi ut soluta est veniam voluptas omnis enim. Nesciunt optio dolorem perspiciatis ea deserunt et. Explicabo enim a ad possimus unde earum molestias nesciunt. Ut debitis quos inventore nam.\n \rDicta dolorem exercitationem tempore blanditiis placeat et inventore quas vel. Sed omnis nihil veritatis voluptas. Esse reprehenderit et dolor quibusdam. Facere officiis explicabo numquam aut magni unde officia assumenda. Reprehenderit ut voluptas eos sint nesciunt ipsam.",
       "avatarUrl": "https://www.gravatar.com/avatar/2ad1aa80dd264b9dca8253a8b7ccb712?d=identicon",
-      "timeTask": 5
+      "timeTask": 5,
+      "status": "activa"
     },
     {
       "id": "b084df16-117c-4a7b-b4b2-8218c9c1e02d",
@@ -48,7 +52,8 @@
       "taskTitle": "soluta eos quis",
       "taskDescription": "Est velit nam quos qui numquam sed. Maiores quos repellat sit sit. Sint quia quia ut laboriosam non temporibus illo exercitationem.\n \rCum necessitatibus sint ut totam enim maxime laborum quidem. Vel odit officia aperiam praesentium enim non pariatur doloremque. Voluptatibus quisquam voluptatem officiis quo deserunt molestiae.\n \rAliquam et repellat eos ad qui deserunt. Fugiat minus blanditiis dolores. Ad nisi quae aut. Ut accusamus eveniet repudiandae.",
       "avatarUrl": "https://www.gravatar.com/avatar/7fb2a989c968773158f0809a1e6bd6f6?d=identicon",
-      "timeTask": 52
+      "timeTask": 0,
+      "status": "finalizada"
     },
     {
       "firstName": "Daniel",
@@ -56,8 +61,9 @@
       "email": "dny9919@gmail.com",
       "taskTitle": "Este es el titulo de la tarea",
       "taskDescription": "Ahora es el texto falso de de una supuesta tarea que esta dentro de una app que esta corriendo en React",
-      "timeTask": "6",
-      "id": "DIm4Wyo"
+      "timeTask": 0,
+      "id": "DIm4Wyo",
+      "status": "finalizada"
     }
   ]
 }

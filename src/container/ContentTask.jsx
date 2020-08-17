@@ -11,11 +11,11 @@ export const ContentTask = ({tasks, onDeleteTask}) => {
     <>
       <SectionTitle tasks={tasks}/>
       <TaskList tasks={tasks} onDeleteTask={onDeleteTask}/>
-      <Link to='/tasks/new'>
-        <div className='Card__new'>
-          <FontAwesomeIcon icon={faPlus}/>
-        </div>
-      </Link>
+      <div className='Card__new'>
+        <Link to='/tasks/new'>
+            <FontAwesomeIcon icon={faPlus}/>
+        </Link>
+      </div>
     </>
   )
 }

@@ -9,6 +9,7 @@
  */
 
 @import "./Vars.scss";
+@import "./mixins/status";
 
 .Card {
   background-color: $ColorWhite;
@@ -20,10 +21,11 @@
     border-bottom: solid 2px $ColorBackground;
     padding-bottom: 8px;
     align-items: center;
-    &-activo {
-      font-family: $font3;
-      color: $ColorSecundary;
-      margin: 0;
+    &-active {
+      @include -status($ColorSecundary)
+    }
+    &-finish {
+      @include -status($ColorFinish)
     }
     &-button {
       background-color: $ColorBrand;
@@ -38,6 +40,9 @@
         margin: 0;
         font-family: $font1;
         font-size: 14px;
+        &:hover{
+          color: $ColorWhite;
+        }
       }
       & p {
         color: $ColorWhite;
@@ -54,6 +59,7 @@
       justify-content: space-around;
       & p {
         height: 20px;
+        color: $ColorSecundary;
       }
       & path {
         fill: $ColorSecundary;
@@ -114,6 +120,8 @@
         opacity: 0.7;
         max-height: 66px;
         overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%;
       }
     }
     &-textD {
@@ -128,6 +136,7 @@
       }
     }
     &-menu {
+      z-index: 10;
       & button {
         border: none;
         background: none;
@@ -156,19 +165,27 @@
     position: fixed;
     right: 26px;
     bottom: 24px;
+    z-index: 19;
+    & a{
+      color: $ColorWhite;
+      &:hover{
+        color: $ColorWhite;
+      }
+    }
   }
 }
 
 .Modal {
-  position: absolute;
-  right: 20px;
-  background-color: $ColorWhite;
-  border-radius: $Space05;
+  position: initial;
+  margin-left: -103px;
+  background-color: #ffffff;
+  border-radius: 8px;
   padding: 12px 28px 10px 9px;
   box-shadow: 0 4px 16px 0 rgba(71, 87, 162, 0.34);
-  font-family: $font3;
+  font-family: "Gilroy SemiBold",
+  sans-serif;
   display: grid;
-  grid-row-gap: 4px;
+  z-index: 11;
   &__watch {
     color: $ColorBrand;
     font-size: 14px;
@@ -191,5 +208,12 @@
         fill: $ColorGray;
       }
     }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .Card{
+    grid-template-areas: "header header" 1fr
+                          "info content" 1fr/ 2fr;
   }
 }
