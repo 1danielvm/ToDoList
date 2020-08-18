@@ -212,8 +212,26 @@
 
 @media screen and (min-width: 900px) {
   .Card {
-    grid-template-areas:
-      "header header" 1fr
-      "info content" 1fr/ 2fr;
+    display: grid;
+    grid-template:
+      "header header" 36px
+      "info contentainer" 1fr/ 2fr;
+    gap: 12px 32px;
+    &__header {
+      grid-area: header;
+    }
+    &__info {
+      grid-area: info;
+      display: flex;
+      font-size: 12px;
+      align-items: center;
+      justify-content: space-between;
+      margin: 1px 0;
+      width: 325px;
+    }
+    &__content {
+      grid-area: contentainer;
+      justify-content: space-between;
+    }
   }
 }

@@ -13,12 +13,14 @@ const Header = () => {
           <p>Sabado, 11 de Julio</p>
         </div>
       </div>
-      <div className="Header__user">
-        <img
-          src="https://s.gravatar.com/avatar/d8773e49c65cea0d82107b75110918b3?s=80"
-          alt="avatar"
-        />
-      </div>
+      <Link to='/'>
+        <div className="Header__user">
+          <img
+            src="https://s.gravatar.com/avatar/d8773e49c65cea0d82107b75110918b3?s=80"
+            alt="avatar"
+            />
+        </div>
+      </Link>
     </header>
   );
 };
